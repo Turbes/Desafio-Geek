@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AluraGeek - Mis Productos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Encabezado principal -->
+  <header class="header">
+    <h1>❤️💛🖤 AluraGeek</h1>
+  </header>
+
+  <!-- Contenido principal -->
+  <main class="container">
+    <!-- Sección de productos -->
+    <section class="products-section">
+      <h2>MIS PRODUCTOS:</h2>
+      <div class="products" id="product-list">
+        <!-- Los productos iniciales y dinámicos se cargarán aquí -->
+      </div>
+    </section>
+
+    <!-- Formulario para agregar nuevos productos -->
+    <aside class="add-product">
+      <h2>AGREGAR PRODUCTO:</h2>
+      <form id="add-product-form">
+        <!-- Campo del nombre del producto -->
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" placeholder="Nombre del producto" required>
+
+        <!-- Campo del precio del producto -->
+        <label for="price">Precio:</label>
+        <input type="number" id="price" name="price" placeholder="Precio del producto" required>
+
+        <!-- Campo de la URL de la imagen -->
+        <label for="image">Imagen (URL):</label>
+        <input type="url" id="image" name="image" placeholder="URL de la imagen" required>
+
+        <!-- Botones del formulario -->
+        <div class="form-buttons">
+          <button type="submit" class="add-button">Agregar Producto</button>
+          <button type="reset" class="reset-button">Limpiar</button>
+        </div>
+      </form>
+    </aside>
+  </main>
+
+  <!-- Pie de página -->
+  <footer class="footer">
+    <p>❤️💛🖤 AluraGeek - Desarrollado por [Belén Turbes]</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
